@@ -529,12 +529,16 @@ header {
   font-weight: bold;
   background: whitesmoke;
   max-width: 100vw;
-  height: 10vh;
+  height: auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
   .quick-link #myfooter {
-    margin: auto 10px;
     width: 100%;
+    height: 20vh;
     margin-bottom: 0;
+    overflow: hidden;
+  }
+  .quick-link #myfooter p {
+    margin: 20px 10px;
   }
 }/*# sourceMappingURL=home.css.map */
